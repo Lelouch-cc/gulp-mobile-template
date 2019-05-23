@@ -7,11 +7,6 @@ option {
   font: normal $font-size $font;
 }
 
-a,
-p {
-  word-break: break-all;
-}
-
 body {
   position: relative;
   max-width: 750px;
@@ -22,4 +17,4 @@ body {
   overflow-x: hidden;
 }
 
-@include placeholder;
+@include no-scroll;

@@ -1,9 +1,9 @@
-@mixin bg-style($size: contain, $position: center) {
+@mixin bg-style($type: contain, $position: center) {
   background-repeat: no-repeat;
   background-position: $position;
-  background-size: $size;
+  background-size: $type;
 }
 
-@mixin bg($name, $ext: "png", $path: $image-path) {
+@mixin bg($name, $ext: "png", $path: "../img") {
   background-image: url("#{$path}/#{$name}.#{$ext}");
 }

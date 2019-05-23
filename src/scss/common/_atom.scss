@@ -1,15 +1,3 @@
-img {
-  @include responsive;
-}
-
-.fl {
-  float: left;
-}
-
-.fr {
-  float: right;
-}
-
 .clearfix {
   @include clearfix;
 }
@@ -20,8 +8,4 @@ img {
 
 .bg-contain {
   @include bg-style;
-}
-
-.bg-cover {
-  @include bg-style(cover);
 }

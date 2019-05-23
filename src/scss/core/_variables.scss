@@ -1,9 +1,15 @@
+@import "../fonts/style";
+
 // Font
-$font: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$font-size: 28px !default;
+$font: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial,
+  sans-serif;
+$font-hansansN: "HansansN";
+$font-hansansR: "HansansR";
+$font-hansansH: "HansansH";
+$font-huangYou: "HuangYou";
+$font-XiNiu: "XiNiu";
+$font-size: 32px;
 
 // Theme
-$primary-color: #b12e29;
-
-// Text
-$primary-text-color: #333 !default;
+$primary-text-color: #333;
+$secondary-text-color: #666;
