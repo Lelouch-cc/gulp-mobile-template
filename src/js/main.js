@@ -1,10 +1,10 @@
 const person = {
-  name: 'ntnyq',
-  age: 27
+  name: 'yhw',
+  age: 25
 }
 
 let { age } = person
 
-class Car { }
+class Car {}
 
 console.log('I am from index')
